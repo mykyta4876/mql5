@@ -1,0 +1,21 @@
+Profiles
+Scripts
+Logs
+*.bmp
+Include/Math
+Include/WinAPI
+Include/Trade
+Indicators/Examples
+Indicators/Free Indicators
+Include/Indicators
+Include/Generic
+Include/Expert
+Include/Controls
+Include/Canvas
+Include/ChartObjects
+Include/Arrays
+Experts/Examples
+Experts/Free Robots
+experts.dat
+*.exe
+*.zip
