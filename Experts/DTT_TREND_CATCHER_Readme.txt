@@ -199,3 +199,26 @@ sudo apt install mysql-server
 sudo mysql_secure_installation
 
 sudo chmod -R 777 /var/www/html
+
+sudo chown -R www-data:www-data /var/www/html/api/data/backup
+sudo chmod -R 755 /var/www/html/api/data/backup
+
+sudo apt-get install php-mbstring
+sudo systemctl restart apache2
+
+sudo a2enmod rewrite
+sudo systemctl restart apache2
+
+sudo chown www-data:www-data /var/www/html/v1/.htaccess
+sudo chmod 644 /var/www/html/v1/.htaccess
+
+sudo nano /etc/apache2/apache2.conf
+<Directory /var/www/html>
+    AllowOverride All
+    ...
+</Directory>
+sudo systemctl restart apache2
+
+Error with original file name data. 
+API parameters: ?mtid=0&projeto=DTT_TREND_CATCHER.mq5&page=10006604954
+
