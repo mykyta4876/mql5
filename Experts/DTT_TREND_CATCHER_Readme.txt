@@ -222,3 +222,4 @@ sudo systemctl restart apache2
 Error with original file name data. 
 API parameters: ?mtid=0&projeto=DTT_TREND_CATCHER.mq5&page=10006604954
 
+API Request: ?mtid=1416670362&saldo=99993.98&resultado_do_dia=0.00&resultado_da_semana=0.00&lucro_total=0.00&taxa_acerto=0.00&maior_loss_diario=0.00&maior_gain_diario=0.00&resultados_mensais={"Agosto": 0.00, "Julho": 0.00, "Junho": -6.00, "Maio": 0.00, "Abril": 0.00, "Março": 0.00, "Fevereiro": 0.00, "Janeiro": 0.00, "Dezembro": 0.00, "Novembro": 0.00, "Outubro": 0.00, "Setembro": 0.00}&historico=[{ "Data": "2025.06.11 04:56:38", "Volume": 0.01, "Simbolo": "EURUSD", "Tipo": "Buy", "Resultado": -2.00, "Modo
